@@ -2,6 +2,8 @@ import Image from "next/image";
 import HeroSection from "@/components/HeroSection";
 import FeaturedCourses from "@/components/FeaturedCourses";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import MusicTestimonials from "@/components/TestimonialCards";
+import UpComingWebinars from "@/components/UpComingWebinars";
 
 export default function Home() {
   return (
@@ -9,6 +11,8 @@ export default function Home() {
       <HeroSection />
       <FeaturedCourses />
       <WhyChooseUs />
+      <MusicTestimonials />
+      <UpComingWebinars />
     </main>
   );
 }
