@@ -50,7 +50,7 @@ const featuredWebinars = [
 
 function UpComingWebinars() {
   return (
-    <div className="p-12 bg-gray-900">
+    <div className="py-12 md:p-12 bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* 1  */}
         <div className="text-center">
